@@ -1,0 +1,942 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1334 /opt/microchip/xc8/v2.46/pic/include/proc/pic16f690.h
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"255
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"2480
+[v _SPBRGH `Vuc ~T0 @X0 0 e@154 ]
+"2418
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2353
+[s S93 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S93 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"2363
+[s S94 :3 `uc 1 :1 `uc 1 ]
+[n S94 . . SENB ]
+"2352
+[u S92 `S93 1 `S94 1 ]
+[n S92 . . . ]
+"2368
+[v _TXSTAbits `VS92 ~T0 @X0 0 e@152 ]
+"2548
+[s S100 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S100 . ABDEN WUE . BRG16 SCKP . RCIDL ABDOVF ]
+"2547
+[u S99 `S100 1 ]
+[n S99 . . ]
+"2559
+[v _BAUDCTLbits `VS99 ~T0 @X0 0 e@155 ]
+"3002
+[v _ANSEL `Vuc ~T0 @X0 0 e@286 ]
+"3064
+[v _ANSELH `Vuc ~T0 @X0 0 e@287 ]
+"1295
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"851
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"850
+[u S30 `S31 1 ]
+[n S30 . . ]
+"862
+[v _RCSTAbits `VS30 ~T0 @X0 0 e@24 ]
+"392
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"401
+[s S15 :1 `uc 1 :1 `uc 1 ]
+[n S15 . T1IF T2IF ]
+"391
+[u S13 `S14 1 `S15 1 ]
+[n S13 . . . ]
+"406
+[v _PIR1bits `VS13 ~T0 @X0 0 e@12 ]
+"907
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"1402
+[s S53 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S53 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1411
+[s S54 :1 `uc 1 :1 `uc 1 ]
+[n S54 . T1IE T2IE ]
+"1401
+[u S52 `S53 1 `S54 1 ]
+[n S52 . . . ]
+"1416
+[v _PIE1bits `VS52 ~T0 @X0 0 e@140 ]
+"324
+[v _INTCON `Vuc ~T0 @X0 0 e@11 ]
+"914
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+"2347
+[v _TXSTA `Vuc ~T0 @X0 0 e@152 ]
+"1396
+[v _PIE1 `Vuc ~T0 @X0 0 e@140 ]
+"386
+[v _PIR1 `Vuc ~T0 @X0 0 e@12 ]
+"2542
+[v _BAUDCTL `Vuc ~T0 @X0 0 e@155 ]
+"216
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v2.46/pic/include/builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"1301 /opt/microchip/xc8/v2.46/pic/include/proc/pic16f690.h
+[s S49 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . . TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1300
+[u S48 `S49 1 ]
+[n S48 . . ]
+"1309
+[v _TRISBbits `VS48 ~T0 @X0 0 e@134 ]
+[p mainexit ]
+"2898
+[v _CM2CON0 `Vuc ~T0 @X0 0 e@282 ]
+"54 /opt/microchip/xc8/v2.46/pic/include/proc/pic16f690.h
+[; <" INDF equ 00h ;# ">
+"61
+[; <" TMR0 equ 01h ;# ">
+"68
+[; <" PCL equ 02h ;# ">
+"75
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR equ 04h ;# ">
+"168
+[; <" PORTA equ 05h ;# ">
+"218
+[; <" PORTB equ 06h ;# ">
+"257
+[; <" PORTC equ 07h ;# ">
+"319
+[; <" PCLATH equ 0Ah ;# ">
+"326
+[; <" INTCON equ 0Bh ;# ">
+"388
+[; <" PIR1 equ 0Ch ;# ">
+"458
+[; <" PIR2 equ 0Dh ;# ">
+"497
+[; <" TMR1 equ 0Eh ;# ">
+"504
+[; <" TMR1L equ 0Eh ;# ">
+"511
+[; <" TMR1H equ 0Fh ;# ">
+"518
+[; <" T1CON equ 010h ;# ">
+"589
+[; <" TMR2 equ 011h ;# ">
+"596
+[; <" T2CON equ 012h ;# ">
+"667
+[; <" SSPBUF equ 013h ;# ">
+"674
+[; <" SSPCON equ 014h ;# ">
+"744
+[; <" CCPR equ 015h ;# ">
+"751
+[; <" CCPR1L equ 015h ;# ">
+"758
+[; <" CCPR1H equ 016h ;# ">
+"765
+[; <" CCP1CON equ 017h ;# ">
+"847
+[; <" RCSTA equ 018h ;# ">
+"909
+[; <" TXREG equ 019h ;# ">
+"916
+[; <" RCREG equ 01Ah ;# ">
+"923
+[; <" PWM1CON equ 01Ch ;# ">
+"993
+[; <" ECCPAS equ 01Dh ;# ">
+"1075
+[; <" ADRESH equ 01Eh ;# ">
+"1082
+[; <" ADCON0 equ 01Fh ;# ">
+"1177
+[; <" OPTION_REG equ 081h ;# ">
+"1247
+[; <" TRISA equ 085h ;# ">
+"1297
+[; <" TRISB equ 086h ;# ">
+"1336
+[; <" TRISC equ 087h ;# ">
+"1398
+[; <" PIE1 equ 08Ch ;# ">
+"1468
+[; <" PIE2 equ 08Dh ;# ">
+"1507
+[; <" PCON equ 08Eh ;# ">
+"1546
+[; <" OSCCON equ 08Fh ;# ">
+"1611
+[; <" OSCTUNE equ 090h ;# ">
+"1663
+[; <" PR2 equ 092h ;# ">
+"1670
+[; <" SSPADD equ 093h ;# ">
+"1677
+[; <" SSPMSK equ 093h ;# ">
+"1682
+[; <" MSK equ 093h ;# ">
+"1799
+[; <" SSPSTAT equ 094h ;# ">
+"1968
+[; <" WPUA equ 095h ;# ">
+"1973
+[; <" WPU equ 095h ;# ">
+"2122
+[; <" IOCA equ 096h ;# ">
+"2127
+[; <" IOC equ 096h ;# ">
+"2296
+[; <" WDTCON equ 097h ;# ">
+"2349
+[; <" TXSTA equ 098h ;# ">
+"2420
+[; <" SPBRG equ 099h ;# ">
+"2482
+[; <" SPBRGH equ 09Ah ;# ">
+"2544
+[; <" BAUDCTL equ 09Bh ;# ">
+"2596
+[; <" ADRESL equ 09Eh ;# ">
+"2603
+[; <" ADCON1 equ 09Fh ;# ">
+"2645
+[; <" EEDAT equ 010Ch ;# ">
+"2650
+[; <" EEDATA equ 010Ch ;# ">
+"2657
+[; <" EEADR equ 010Dh ;# ">
+"2664
+[; <" EEDATH equ 010Eh ;# ">
+"2671
+[; <" EEADRH equ 010Fh ;# ">
+"2678
+[; <" WPUB equ 0115h ;# ">
+"2726
+[; <" IOCB equ 0116h ;# ">
+"2765
+[; <" VRCON equ 0118h ;# ">
+"2835
+[; <" CM1CON0 equ 0119h ;# ">
+"2900
+[; <" CM2CON0 equ 011Ah ;# ">
+"2965
+[; <" CM2CON1 equ 011Bh ;# ">
+"3004
+[; <" ANSEL equ 011Eh ;# ">
+"3066
+[; <" ANSELH equ 011Fh ;# ">
+"3104
+[; <" EECON1 equ 018Ch ;# ">
+"3149
+[; <" EECON2 equ 018Dh ;# ">
+"3156
+[; <" PSTRCON equ 019Dh ;# ">
+"3200
+[; <" SRCON equ 019Eh ;# ">
+"11 ./headers/f690.h
+[v _led `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _led ]
+[v _val `uc ~T0 @X0 1 r1 ]
+[f ]
+"12
+[e = _TRISC -> -> 0 `i `uc ]
+"13
+[e = _PORTC _val ]
+"14
+[e :UE 135 ]
+}
+"116 ./headers/eusart.h
+[v _baud_modes `uc ~T0 @X0 1 e ]
+[i _baud_modes
+-> -> 0 `i `uc
+]
+"117
+[v _eu_dummy `uc ~T0 @X0 1 e ]
+[i _eu_dummy
+-> -> 0 `i `uc
+]
+"118
+[v _eu_data `uc ~T0 @X0 1 e ]
+[i _eu_data
+-> -> 0 `i `uc
+]
+"123
+[v _Baud `(v ~T0 @X0 1 ef2`ui`uc ]
+"124
+{
+[e :U _Baud ]
+"123
+[v _bbaud `ui ~T0 @X0 1 r1 ]
+[v _mode `uc ~T0 @X0 1 r2 ]
+"124
+[f ]
+"125
+[e = _SPBRGH -> >> & _bbaud -> 65280 `ui -> 8 `i `uc ]
+"126
+[e = _SPBRG -> & _bbaud -> -> 255 `i `ui `uc ]
+"127
+[e $ ! == -> _mode `i -> 0 `i 137  ]
+"128
+{
+"129
+[e = . . _TXSTAbits 0 2 -> -> 0 `i `uc ]
+"130
+[e = . . _BAUDCTLbits 0 3 -> -> 0 `i `uc ]
+"131
+}
+[e :U 137 ]
+"132
+[e $ ! == -> _mode `i -> 1 `i 138  ]
+"133
+{
+"134
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"135
+[e = . . _BAUDCTLbits 0 3 -> -> 0 `i `uc ]
+"136
+}
+[e :U 138 ]
+"137
+[e $ ! == -> _mode `i -> 2 `i 139  ]
+"138
+{
+"139
+[e = . . _TXSTAbits 0 2 -> -> 0 `i `uc ]
+"140
+[e = . . _BAUDCTLbits 0 3 -> -> 1 `i `uc ]
+"141
+}
+[e :U 139 ]
+"142
+[e $ ! == -> _mode `i -> 3 `i 140  ]
+"143
+{
+"144
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"145
+[e = . . _BAUDCTLbits 0 3 -> -> 1 `i `uc ]
+"146
+}
+[e :U 140 ]
+"147
+[e :UE 136 ]
+}
+"149
+[v _eusart_init `(v ~T0 @X0 1 ef2`ui`uc ]
+"150
+{
+[e :U _eusart_init ]
+"149
+[v _bbaud `ui ~T0 @X0 1 r1 ]
+[v _mode `uc ~T0 @X0 1 r2 ]
+"150
+[f ]
+"151
+[e = _ANSEL -> -> 0 `i `uc ]
+"152
+[e = _ANSELH -> -> 0 `i `uc ]
+"153
+[e = _TRISB -> -> 192 `i `uc ]
+"154
+[e ( _Baud (2 , _bbaud _mode ]
+"155
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"156
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"158
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"160
+[e :UE 141 ]
+}
+"161
+[v _eusart_wr `(v ~T0 @X0 1 ef1`uc ]
+"162
+{
+[e :U _eusart_wr ]
+"161
+[v _val `uc ~T0 @X0 1 r1 ]
+"162
+[f ]
+"163
+[e $U 143  ]
+[e :U 144 ]
+"164
+[e :U 143 ]
+"163
+[e $ == -> . . _PIR1bits 0 4 `i -> 0 `i 144  ]
+[e :U 145 ]
+"166
+[e = _TXREG _val ]
+"168
+[e :UE 142 ]
+}
+"170
+[v _eusart_rx_init `(v ~T0 @X0 1 ef2`ui`uc ]
+"171
+{
+[e :U _eusart_rx_init ]
+"170
+[v _bbaud `ui ~T0 @X0 1 r1 ]
+[v _mode `uc ~T0 @X0 1 r2 ]
+"171
+[f ]
+"172
+[e = _ANSEL -> -> 0 `i `uc ]
+"173
+[e = _ANSELH -> -> 0 `i `uc ]
+"174
+[e = _TRISB -> -> 192 `i `uc ]
+"175
+[e ( _Baud (2 , _bbaud _mode ]
+"176
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"177
+[e = . . _BAUDCTLbits 0 1 -> -> 0 `i `uc ]
+"178
+[e = . . _RCSTAbits 0 5 -> -> 0 `i `uc ]
+"179
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"180
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"181
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"182
+[e = _INTCON -> -> 192 `i `uc ]
+"184
+[e :UE 146 ]
+}
+"186
+[v _eusart_rd `(uc ~T0 @X0 1 ef ]
+"187
+{
+[e :U _eusart_rd ]
+[f ]
+"188
+[e = _eu_dummy _RCREG ]
+"189
+[e $U 148  ]
+[e :U 149 ]
+"190
+[e :U 148 ]
+"189
+[e $ == -> . . _PIR1bits 0 5 `i -> 1 `i 149  ]
+[e :U 150 ]
+"191
+[e $ ! == -> . . _RCSTAbits 0 1 `i -> 1 `i 151  ]
+"192
+{
+"193
+[e = . . _RCSTAbits 0 4 -> -> 0 `i `uc ]
+"194
+}
+[e :U 151 ]
+"195
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"196
+[e ) _RCREG ]
+[e $UE 147  ]
+"197
+[e :UE 147 ]
+}
+"200
+[v _autobaud_rdInit `(v ~T0 @X0 1 ef2`ui`uc ]
+"201
+{
+[e :U _autobaud_rdInit ]
+"200
+[v _bbaud `ui ~T0 @X0 1 r1 ]
+[v _mode `uc ~T0 @X0 1 r2 ]
+"201
+[f ]
+"202
+[e = _ANSEL -> -> 0 `i `uc ]
+"203
+[e = _ANSELH -> -> 0 `i `uc ]
+"204
+[e = _TRISC -> -> 192 `i `uc ]
+"205
+[e ( _Baud (2 , _bbaud _mode ]
+"206
+[e = . . _BAUDCTLbits 0 1 -> -> 0 `i `uc ]
+"207
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"208
+[e = . . _RCSTAbits 0 5 -> -> 0 `i `uc ]
+"209
+[e = . . _RCSTAbits 0 3 -> -> 0 `i `uc ]
+"210
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"211
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"212
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"213
+[e = _INTCON -> -> 192 `i `uc ]
+"214
+[e = . . _BAUDCTLbits 0 0 -> -> 1 `i `uc ]
+"217
+[e :UE 152 ]
+}
+"218
+[v _autoBaud_rd `(uc ~T0 @X0 1 ef ]
+"219
+{
+[e :U _autoBaud_rd ]
+[f ]
+"220
+[e = _eu_dummy _RCREG ]
+"221
+[e $U 154  ]
+[e :U 155 ]
+"222
+[e :U 154 ]
+"221
+[e $ == -> . . _PIR1bits 0 5 `i -> 1 `i 155  ]
+[e :U 156 ]
+"223
+[e $ ! == -> . . _RCSTAbits 0 1 `i -> 1 `i 157  ]
+"224
+{
+"225
+[e = . . _RCSTAbits 0 4 -> -> 0 `i `uc ]
+"226
+}
+[e :U 157 ]
+"227
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"228
+[e ) _RCREG ]
+[e $UE 153  ]
+"229
+[e :UE 153 ]
+}
+"231
+[v _eusart_stop `(v ~T0 @X0 1 ef ]
+"232
+{
+[e :U _eusart_stop ]
+[f ]
+"233
+[e = _TXSTA -> -> 0 `i `uc ]
+"234
+[e = _PIE1 -> -> 0 `i `uc ]
+"235
+[e = _PIR1 -> -> 0 `i `uc ]
+"236
+[e = _BAUDCTL -> -> 0 `i `uc ]
+"237
+[e = _TRISB -> -> 0 `i `uc ]
+"238
+[e = _INTCON -> -> 0 `i `uc ]
+"239
+[e = _PORTB -> -> 0 `i `uc ]
+"240
+[e :UE 158 ]
+}
+"5 ./headers/config.h
+[p x FOSC  =  HS ]
+"6
+[p x WDTE  =  OFF ]
+"7
+[p x PWRTE  =  ON ]
+"8
+[p x MCLRE  =  ON ]
+"9
+[p x BOREN  =  OFF ]
+"10
+[p x CP  =  OFF ]
+"11
+[p x CPD  =  OFF ]
+"12
+[p x IESO  =  OFF  ]
+"13
+[p x FCMEN  =  OFF ]
+"64 ./headers/twi.h
+[v _twi_dummy `uc ~T0 @X0 1 e ]
+[i _twi_dummy
+-> -> 0 `i `uc
+]
+"65
+[v _twi_data `uc ~T0 @X0 1 e ]
+[i _twi_data
+-> -> 0 `i `uc
+]
+"66
+[v _twi_addr `uc ~T0 @X0 1 e ]
+[i _twi_addr
+-> -> 0 `i `uc
+]
+"124
+[v _mxbuff `uc ~T0 @X0 -> 8 `i e ]
+"125
+[v _mbuff `uc ~T0 @X0 -> 8 `i e ]
+"126
+[v _bytex `uc ~T0 @X0 1 e ]
+[i _bytex
+-> -> 0 `i `uc
+]
+"127
+[v _ack `uc ~T0 @X0 1 e ]
+[i _ack
+-> -> 0 `i `uc
+]
+"128
+[v _cyc `uc ~T0 @X0 1 e ]
+[i _cyc
+-> -> 100 `i `uc
+]
+"142
+[v _buff2byte `(uc ~T0 @X0 1 ef1`*uc ]
+"143
+{
+[e :U _buff2byte ]
+"142
+[v _buf `*uc ~T0 @X0 1 r1 ]
+"143
+[f ]
+"144
+[v _cnt `uc ~T0 @X0 1 a ]
+[e = _cnt -> -> 128 `i `uc ]
+"145
+[e = _bytex -> -> 0 `i `uc ]
+"146
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 160  ]
+[e $U 161  ]
+[e :U 160 ]
+"147
+{
+"148
+[e $ ! == -> *U + _buf * -> _i `ux -> -> # *U _buf `ui `ux `i -> 1 `i 163  ]
+"149
+{
+"150
+[e =+ _bytex -> _cnt `uc ]
+"151
+}
+[e :U 163 ]
+"152
+[e = _cnt -> / -> _cnt `i -> 2 `i `uc ]
+"153
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 160  ]
+[e :U 161 ]
+}
+"154
+[e ) _bytex ]
+[e $UE 159  ]
+"155
+[e :UE 159 ]
+}
+"156
+[v _msb_byte `(v ~T0 @X0 1 ef1`uc ]
+"157
+{
+[e :U _msb_byte ]
+"156
+[v _val `uc ~T0 @X0 1 r1 ]
+"157
+[f ]
+"158
+[v _cnt `uc ~T0 @X0 1 a ]
+[e = _cnt -> -> 1 `i `uc ]
+"159
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 165  ]
+[e $U 166  ]
+[e :U 165 ]
+"160
+{
+"161
+[e = *U + &U _mxbuff * -> _i `ux -> -> # *U &U _mxbuff `ui `ux -> >> & -> _val `i -> _cnt `i -> _i `i `uc ]
+"162
+[e = _cnt -> << -> _cnt `i -> 1 `i `uc ]
+"163
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 165  ]
+[e :U 166 ]
+}
+"164
+[e = *U + &U _mbuff * -> -> -> 0 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 7 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"165
+[e = *U + &U _mbuff * -> -> -> 1 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 6 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"166
+[e = *U + &U _mbuff * -> -> -> 2 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 5 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"167
+[e = *U + &U _mbuff * -> -> -> 3 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 4 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"168
+[e = *U + &U _mbuff * -> -> -> 4 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 3 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"169
+[e = *U + &U _mbuff * -> -> -> 5 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 2 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"170
+[e = *U + &U _mbuff * -> -> -> 6 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 1 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"171
+[e = *U + &U _mbuff * -> -> -> 7 `i `ui `ux -> -> # *U &U _mbuff `ui `ux *U + &U _mxbuff * -> -> -> 0 `i `ui `ux -> -> # *U &U _mxbuff `ui `ux ]
+"172
+[e :UE 164 ]
+}
+"173
+[v _twi_init `(v ~T0 @X0 1 ef ]
+"174
+{
+[e :U _twi_init ]
+[f ]
+"175
+[e = _TRISB -> -> 0 `i `uc ]
+"176
+[e = _PORTB -> | -> 64 `i -> 16 `i `uc ]
+"177
+[e ( __delay (1 -> * -> -> _cyc `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"178
+[e = _PORTB -> -> 64 `i `uc ]
+"179
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"180
+[e = _PORTB -> -> 0 `i `uc ]
+"181
+[e ( __delay (1 -> * -> -> _cyc `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"182
+[e :UE 168 ]
+}
+"183
+[v _twi_address `(uc ~T0 @X0 1 ef1`uc ]
+"184
+{
+[e :U _twi_address ]
+"183
+[v _addrs `uc ~T0 @X0 1 r1 ]
+"184
+[f ]
+"185
+[v _cnt `uc ~T0 @X0 1 a ]
+[e = _cnt -> -> 1 `i `uc ]
+"186
+[e ( _msb_byte (1 _addrs ]
+"187
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 170  ]
+[e $U 171  ]
+[e :U 170 ]
+"188
+{
+"190
+[e $ ! == -> *U + &U _mbuff * -> _i `ux -> -> # *U &U _mbuff `ui `ux `i -> 1 `i 173  ]
+"191
+{
+"192
+[e = _PORTB -> -> 64 `i `uc ]
+"193
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"194
+[e = _PORTB -> | -> 16 `i -> 64 `i `uc ]
+"195
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"196
+[e = _PORTB -> -> 16 `i `uc ]
+"197
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"198
+}
+[e :U 173 ]
+"199
+[e $ ! == -> *U + &U _mbuff * -> _i `ux -> -> # *U &U _mbuff `ui `ux `i -> 0 `i 174  ]
+"200
+{
+"201
+[e = _PORTB -> -> 64 `i `uc ]
+"202
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"203
+[e = _PORTB -> -> 0 `i `uc ]
+"204
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"205
+}
+[e :U 174 ]
+"206
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 170  ]
+[e :U 171 ]
+}
+"207
+[e = . . _TRISBbits 0 1 -> -> 1 `i `uc ]
+"208
+[e = _PORTB -> -> 64 `i `uc ]
+"209
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"210
+[e = _ack -> >> & -> _PORTB `i -> 16 `i -> 4 `i `uc ]
+"211
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"212
+[e = _TRISB -> -> 0 `i `uc ]
+"213
+[e $U 175  ]
+[e :U 176 ]
+"214
+{
+"216
+}
+[e :U 175 ]
+"213
+[e $ == -> _ack `i -> 0 `i 176  ]
+[e :U 177 ]
+"218
+[e ) _ack ]
+[e $UE 169  ]
+"219
+[e :UE 169 ]
+}
+"220
+[v _twi_write `(uc ~T0 @X0 1 ef1`uc ]
+"221
+{
+[e :U _twi_write ]
+"220
+[v _val `uc ~T0 @X0 1 r1 ]
+"221
+[f ]
+"222
+[e ( _twi_address (1 _val ]
+"224
+[e :UE 178 ]
+}
+"225
+[v _twi_stop `(v ~T0 @X0 1 ef ]
+"226
+{
+[e :U _twi_stop ]
+[f ]
+"227
+[e = _PORTB -> | -> 64 `i -> 16 `i `uc ]
+"228
+[e ( __delay (1 -> * -> -> _cyc `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"229
+[e :UE 179 ]
+}
+"59 ./headers/lcd.h
+[v _lcd_init `(v ~T0 @X0 1 ef3`uc`uc`uc ]
+"60
+{
+[e :U _lcd_init ]
+"59
+[v _rs `uc ~T0 @X0 1 r1 ]
+[v _rw `uc ~T0 @X0 1 r2 ]
+[v _val `uc ~T0 @X0 1 r3 ]
+"60
+[f ]
+"61
+[e ( __delay (1 -> * -> -> 15000 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"62
+[e ( _twi_write (1 -> -> 3 `i `uc ]
+"63
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"64
+[e ( _twi_write (1 -> -> 3 `i `uc ]
+"65
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"66
+[e ( _twi_write (1 -> -> 3 `i `uc ]
+"68
+[e ( _twi_write (1 -> -> 2 `i `uc ]
+"69
+[e ( _twi_write (1 -> -> 8 `i `uc ]
+"70
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"72
+[e ( _twi_write (1 -> -> 0 `i `uc ]
+"73
+[e ( _twi_write (1 -> -> 8 `i `uc ]
+"74
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"76
+[e ( _twi_write (1 -> -> 0 `i `uc ]
+"77
+[e ( _twi_write (1 -> -> 1 `i `uc ]
+"78
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"80
+[e ( _twi_write (1 -> -> 0 `i `uc ]
+"81
+[e ( _twi_write (1 -> -> 7 `i `uc ]
+"82
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"84
+[e ( _twi_write (1 -> -> 0 `i `uc ]
+"85
+[e ( _twi_write (1 -> -> 15 `i `uc ]
+"86
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"87
+[e :UE 180 ]
+}
+"90
+[v _lcd_command `(v ~T0 @X0 1 ef1`uc ]
+"91
+{
+[e :U _lcd_command ]
+"90
+[v _val `uc ~T0 @X0 1 r1 ]
+"91
+[f ]
+"92
+[e :UE 181 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"13 f690.c
+[v _main `(i ~T0 @X0 1 ef2`i`**Cuc ]
+"14
+{
+[e :U _main ]
+"13
+[v _argc `i ~T0 @X0 1 r1 ]
+[v _argv `**Cuc ~T0 @X0 1 r2 ]
+"14
+[f ]
+"15
+[e = _ANSEL -> -> 0 `i `uc ]
+"16
+[e = _ANSELH -> -> 0 `i `uc ]
+"17
+[e = _CM2CON0 -> -> 4 `i `uc ]
+"18
+[e = _PORTB -> -> 0 `i `uc ]
+"21
+[e ( _twi_init ..  ]
+"22
+[e ( _twi_address (1 -> -> 64 `i `uc ]
+"25
+[e ( _lcd_init (3 , , -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc ]
+"27
+[e ( _twi_stop ..  ]
+"28
+[e :U 184 ]
+"29
+{
+"30
+}
+[e :U 183 ]
+[e $U 184  ]
+[e :U 185 ]
+"32
+[e ) -> 0 `i ]
+[e $UE 182  ]
+"33
+[e :UE 182 ]
+}

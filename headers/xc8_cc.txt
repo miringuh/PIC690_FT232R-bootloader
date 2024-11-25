@@ -1,0 +1,135 @@
+Usage: xc8-cc [options] file...
+Options:
+  -c                        Compile/assemble to intermediate/object file
+  -C                        Tell the preprocessor not to discard comments
+  -S                        Compile to assembly file
+  -v                        Verbose
+  -E                        Preprocess only
+  -o                        Specify output file
+  -D                        Define preprocessor symbol
+  -U                        Undefine preprocessor symbol
+  -I                        Specify include path
+  -l                        Specify library
+  -L                        Specify library search path
+  -H                        List included header files
+  -dM                       List all defined macros
+  -Wl                       Pass comma-separated options directly to the linker
+  -Xlinker                  Pass option directly to the linker
+  -Wa                       Pass comma-separated options on to the assembler
+  -Xparser                  Pass option directly to the parser
+  -Xp1                      Pass option directly to the parser
+  -Xclang                   Pass option directly to the parser
+  -Xassembler               Pass option directly to the assembler
+  -x                        Specify the language of the input files
+  -xassembler-with-cpp      Request that assembly source files be preprocessed
+  -Wp                       Pass comma-separated options directly to the preprocessor
+  -Xpreprocessor            Pass option directly to the preprocessor
+  -###                      Show command lines but do not execute
+  --help                    Help
+  --target-help             Target help
+  -mprint-devices           List supported devices
+  -mprint-builtins          List built in functions
+  --version                 Show version information
+  -mcpu                     Select device
+  -maddrqual                Specify address space qualifier handling
+  -M                        Generate make dependencies
+  -MD                       Generate make dependencies
+  -MF                       Generate make dependencies
+  -MM                       Generate make dependencies
+  -MMD                      Generate make dependencies
+  -memi                     Specify external memory interface mode
+  -merrata                  Apply errata work-arounds
+  -fmax-errors              Specify the maximum number of errors to report
+  -mcci                     Use CCI Language extension
+  -mext                     Use specified language extensions
+  -mwarn                    Set warning level
+  -mmaxichip                Build for hyperthetical maximized-resource device
+  -mmaxipic                 Build for hyperthetical maximized-resource device
+  -mc90lib                  Link in standard C90 libraries
+  -nostdlib                 Do not link the standard system startup or C library
+  -nostdinc                 Do not search the standard C library include directories for headers
+  -nodefaultlibs            Do not link the standard C library
+  -nostartfiles             Do not link the standard system startup module
+  -w                        Suppress all warnings
+  -save-temps               Do not delete intermediate files
+  -Og                       Favor accurate debug over optimization
+  -Os                       Optimize for space rather than speed
+  -O0                       Optimize level 0 (default)
+  -O1                       Optimize level 1
+  -O2                       Optimize level 2
+  -O3                       Optimize level 3
+  -flocal                   Localized optimizations
+  -fcacheconst              Cached constants optimizations
+  -fasmfile                 Optimize assembler source files
+  -mundefints               Program unassigned interrupt vectors
+  -ansi                     Use the C90 language standard
+  -std                      Specify language standard
+  -Wpedantic                Flag use of non-standard keywords
+  -mstack                   Specify default stack model and size
+  -mheap                    Specify maximum heap size
+  -msummary                 Specify compilation summary information
+  -mshroud                  Shroud (obfuscate) generated intermediate files
+  -finstrument-functions    Instrument functions for profiling
+  -fno-instrument-functions Instrument functions for profiling
+  -mplib                    Link in Peripheral Libraries (18xxxx devices only)
+  -mno-plib                 Don't link in Peripheral Libraries (18xxxx devices only)
+  -mivt                     Select the initial IVT
+  -mno-ivt                  Select the initial IVT
+  -muse-ivt                 Select the initial IVT
+  -mno-use-ivt              Select the initial IVT
+  -mdownload-hex            Make the HEX file compatible with bootloaders
+  -mno-download-hex         Don't make the HEX file compatible with bootloaders
+  -mdownload                Make the HEX file compatible with bootloaders
+  -mno-download             Don't make the HEX file compatible with bootloaders
+  -mstackcall               Use non-stack calls where call depth exceeds hardware limitation
+  -mno-stackcall            Don't use non-stack calls where call depth exceeds hardware limitation
+  -mresetbits               Preserve Power-down & Time-out status bits at start up
+  -mno-resetbits            Don't preserve Power-down & Time-out status bits at start up
+  -msave-resetbits          Preserve Power-down & Time-out status bits at start up
+  -mno-save-resetbits       Don't preserve Power-down & Time-out status bits at start up
+  -mconfig                  Program the device with default configuration bits
+  -mno-config               Don't program the device with default configuration bits
+  -mdefault-config-bits     Program the device with default configuration bits
+  -mno-default-config-bits  Don't program the device with default configuration bits
+  -mosccal                  Initialize the oscillator with the calibration constant
+  -mno-osccal               Don't initialize the oscillator with the calibration constant
+  -moscval                  Initialize the oscillator with the calibration constant
+  -mno-oscval               Don't initialize the oscillator with the calibration constant
+  -mno-keep-startup         Don't keep generated assembly runtime startup and program code
+  -mkeep-startup            Keep generated assembly runtime startup and program code
+  -gdwarf-3                 Produce ELF/Dwarf output
+  -gcoff                    Produce COFF output
+  -ginhx32                  Produce Intel Hex output
+  -ginhx032                 Produce Intel Hex extended address zero output
+  -funsigned-char           Specify the type for a plain char
+  -fno-unsigned-char        Specify the type for a plain char
+  -fno-signed-char          Specify the type for a plain char
+  -fsigned-char             Specify the type for a plain char
+  -mchecksum                Calculate and store a checksum in program memory
+  -mcodeoffset              Specify the offset applied to reset and interrupt vectors
+  -fcp                      Specify pointer size
+  -mdebugger                Set debugger environment
+  -fshort-double            Set the size of double types to 24 bits
+  -fno-short-double         Set the size of double types to 32 bits
+  -fshort-float             Set the size of float types to 24 bits
+  -fno-short-float          Set the size of float types to 32 bits
+  --fill                    Specify a fill value for unused program memory
+  -mserial                  Insert a hexadecimal code or serial number
+  --nofallback              Prevent falling back to lesser license modes
+  -mreserve                 Reserve memory range
+  -mrom                     Adjust program memory ranges
+  -mram                     Adjust data memory ranges
+  -mdfp                     Select device family pack
+  --memorysummary           Create an XML file containing a summary of program and data memory spaces
+  -mconst-data-in-progmem   Keep constant data in progra memory, do not copy to RAM
+  -mno-const-data-in-progmem
+                            Copy constant data to RAM
+  -mcodecov                 Set code coverage instrumentation
+  -mclink                   Generate and use linker options needed for C programs
+  -mno-clink                Don't generate and use linker options needed for C programs
+  -mcmacros                 Predefine macros for C programs
+  -mno-cmacros              Don't predefine macros for C programs
+  -mchp-stack-usage         Enable stack usage guidance
+  -msmart-io-format         Default Smart IO specifiers
+  -Werror                   Convert warnings to errors
+  -Wno-error                Prevent conversion of warnings to errors

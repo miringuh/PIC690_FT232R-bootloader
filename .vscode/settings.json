@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "config.h": "c",
+        "eusart.h": "c",
+        "parser.h": "c",
+        "twi.h": "c"
+    }
+}

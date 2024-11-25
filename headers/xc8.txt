@@ -1,0 +1,85 @@
+/opt/microchip/xc8/v2.46/pic/bin/picc @/tmp/xcXFnECPE/xc8_tmp_0.cmd [ --help ]
+Microchip MPLAB XC8 C Compiler V2.46
+Build date: Jan  4 2024
+Part Support Version: 2.46
+Copyright (C) 2024 Microchip Technology Inc.
+License type: Node Configuration
+
+
+
+Compiler Options:
+
+
+      C                              Compile to object file
+      Dargument                      Define preprocessor symbol
+      E<argument>                    Redirect compile errors
+      Iargument                      Specify include path
+      L<argument>                    Set linker option
+      M<argument>                    Generate map file
+      Nargument                      Identifier length
+      Oargument                      Output file
+      P                              Preprocess assembler
+      Q                              Quiet mode
+      S                              Compile to assembler
+      Uargument                      Undefine preprocessor symbol
+      V                              Verbose mode
+      addrqual<=argument>            Specify address space qualifier handling
+      asmlist                        Generate assembler listing
+      char<=argument>                Default character type (defunct)
+      checksum=argument              Calculate a checksum and store the result in program memory
+      chip=argument                  Select processor
+ !    chipinfo                       Chip information
+      clist                          Generate C listing
+      codecov<=argument>             Set code coverage
+      codeoffset=value               Specify ROM address
+      debugger<=argument>            Set debugger environment
+      dep<=argument>                 Dependency file options
+      double<=argument>              Size of double type
+      echo                           Echo command line
+      emi<=argument>                 External memory interface mode
+      errata<=argument>              Specify errata work-arounds
+      errformat<=argument>           Error format
+      errors=number                  Maximum number of errors
+      fill=argument                  Specify a ROM-fill value for unused memory
+      float<=argument>               Size of float type
+      getoption=argument             Get advanced options
+      heap=argument                  Specify maximum heap size
+ !    help<=argument>                Help
+      lkrmac=argument                Define a linker script macro
+      maxipic                        Maximize device
+ !    memmap=argument                Display memory map
+      msgdisable<=argument>          Disable warning messages
+      msgformat<=argument>           Message format
+      nodel                          Do not remove temporary files
+      nofallback                     Prevent falling back to lesser license modes
+      objdir=argument                Object files directory
+      opt<=argument>                 Optimization options
+      outdir=argument                Output directory
+      output<=argument>              Output formats
+      parser<=argument>              Specify parser options
+      pass1                          Produce Microchip intermediate P-code
+      pre                            Preprocess only
+      ram=argument                   Specify RAM ranges
+      rom=argument                   Specify ROM ranges
+      runtime<=argument>             Run-time optionslegacy HI-TECH support is deprecated and will be discontinued in a future release; consult the release notes for more details
+legacy C90 library is deprecated and will be discontinued in a future release; consult the release notes for more details 
+
+      scandep                        Scan for dependencies
+      serial=argument                Insert a hexadecimal code or serial number
+      setoption=argument             Set advanced options
+ !    setup<=argument>               Setup the product
+      shroud                         Shroud (obfuscate) generated p1 files
+      stack<=argument>               Specify default stack model and size
+      std<=argument>                 C standard support
+      strict                         Strict ANSI keywords
+      summary<=argument>             Summary options
+      time                           Report compilation times
+      undefints<=argument>           Program Unassigned Interrupt Vectors
+ !    ver                            Version information
+      warn<=argument>                Warning level
+      warnformat<=argument>          Warning format
+
+ ! Compilation stops after processing this option
+
+Help for a specific option can be obtained by specifying an argument to help.
+
